@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <form>
+        Вік:<br>
+        <input type="number" pattern="[10-40]" min="10" max="40" required><br>
+        Ім’я:<br>
+        <input type="text" pattern="[A-Z]{1}[a-z]{0,9}([/-][A-Z]{1}[a-z]{1,10})(0,1)" required><br>
+        <br>
+        <fieldset>
+        Наявність освіти:<br>
+        <input type="radio" name="gender" checked> так<br>
+        <input type="radio" name="gender"> ні<br>
+        </fieldset>
+        Країна:<br>
+        <select>
+            <option>Україна</option>
+            <option>Польша</option>
+            <option>Франція</option>
+        </select><br>
+        <br>
+        <input type="submit" value="відправити">
+    <style>
+        fieldset {
+            width: 7%;
+        }
+    </style>
+    </form>
+</html>
