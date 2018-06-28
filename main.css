@@ -1,0 +1,34 @@
+fieldset {
+    width: 30%;
+    background-color: bisque;
+    border-radius: 25px;
+}
+.button {
+    border-radius: 25px;
+    margin-left: 225px;
+    padding: 13px;
+    background-color: burlywood;
+}
+.name {
+    background-color: antiquewhite;
+}
+.age {
+    background-color: antiquewhite;
+}
+.select {
+    background-color: antiquewhite;
+}
+.radio {
+    margin-left: 225px;
+}
+.country {
+    margin-left: 235px;
+}
+.agename {
+    float: left;
+    width: 50%;
+}
+
+form {
+    text-align: center;
+  }

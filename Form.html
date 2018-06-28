@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="main.css">
     <form>
+        <fieldset>
+        <div class="agename">
         Вік:<br>
-        <input type="number" pattern="[10-40]" min="10" max="40" required><br>
+        <input class="age" type="number" pattern="[10-40]" min="10" max="40" required><br>
         Ім’я:<br>
-        <input type="text" pattern="[A-Z]{1}[a-z]{0,9}([/-][A-Z]{1}[a-z]{1,10})(0,1)" required><br>
+        <input class="name" type="text" pattern="[A-Z]{1}[a-z]{0,9}([/-][A-Z]{1}[a-z]{1,10})(0,1)" required><br>
         <br>
+        </div>
+        <div class="radio">
         <fieldset>
         Наявність освіти:<br>
-        <input type="radio" name="gender" checked> так<br>
-        <input type="radio" name="gender"> ні<br>
+        <input type="radio" name="select" checked> так<br>
+        <input type="radio" name="select"> ні<br>
         </fieldset>
+        <br>
+        </div>
+        <div class="country">
         Країна:<br>
-        <select>
+        <select class="select">
             <option>Україна</option>
             <option>Польша</option>
             <option>Франція</option>
         </select><br>
         <br>
-        <input type="submit" value="відправити">
-    <style>
-        fieldset {
-            width: 7%;
-        }
-    </style>
+        </div>
+        <input class="button" type="submit" value="відправити">
+        </fieldset>
     </form>
 </html>
