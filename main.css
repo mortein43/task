@@ -1,34 +1,33 @@
 fieldset {
-    width: 30%;
+    width: 20%;
     background-color: bisque;
     border-radius: 25px;
 }
 .button {
     border-radius: 25px;
-    margin-left: 225px;
     padding: 13px;
-    background-color: burlywood;
+    background: linear-gradient(bisque, white);
+    cursor: pointer;
 }
 .name {
-    background-color: antiquewhite;
+    background-color: bisque;
 }
 .age {
-    background-color: antiquewhite;
+    background-color: bisque;
 }
 .select {
-    background-color: antiquewhite;
+    background-color: bisque;
 }
-.radio {
-    margin-left: 225px;
+.inline {
+    display: inline-block;
 }
-.country {
-    margin-left: 235px;
-}
-.agename {
-    float: left;
-    width: 50%;
-}
-
 form {
     text-align: center;
-  }
+}
+.name :hover {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+label {
+    text-shadow: 1px 1px;
+}
