@@ -1,5 +1,5 @@
 fieldset {
-    width: 20%;
+    width: 25%;
     background-color: bisque;
     border-radius: 25px;
 }
@@ -8,6 +8,7 @@ fieldset {
     padding: 13px;
     background: linear-gradient(bisque, white);
     cursor: pointer;
+    transition:transform 1s ease-in-out;
 }
 .name {
     background-color: bisque;
@@ -24,10 +25,13 @@ fieldset {
 form {
     text-align: center;
 }
-.name :hover {
+.button :hover {
     cursor: pointer;
     transform: rotate(180deg);
 }
 label {
     text-shadow: 1px 1px;
+}
+body {
+    background-color: aqua;
 }
