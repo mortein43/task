@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="main.css">
+    <form>
+        <fieldset>
+        <div class="age inline">
+        <label>Вік:</label>
+        <input class="age" type="number" pattern="[10-40]" min="10" max="40" required><br>
+        </div>
+        <div class="name inline">
+        <label>Ім’я:</label>
+        <input class="name" type="text" pattern="[A-Z]{1}[a-z]{0,9}(-)[A-Z]{1}[a-z]{1,10}" required><br>
+        </div>
+        <br>
+        <div class="radio">
+        <p>Наявність освіти:</p>
+        <input type="radio" name="select" checked> так<br>
+        <input type="radio" name="select"> ні<br>
+        </div>
+        <div class="country">
+        <p>Країна:</p>
+        <select class="select">
+            <option>Україна</option>
+            <option>Польша</option>
+            <option>Франція</option>
+        </select><br>
+        <br>
+        </div>
+        <input class="button" type="submit" value="відправити">
+        </fieldset>
+    </form>
+</html>

@@ -1,3 +1,24 @@
 .inline {
     display: inline-block;
 }
+fieldset {
+    text-align: center;
+    border-radius: 15px;
+    width: 90%;
+    background-color: rgb(151, 187, 253);
+}
+#btn {
+    border-radius: 15px;
+    background-color: rgb(151, 187, 253);
+}
+#btn2 {
+    border-radius: 15px;
+    background-color: rgb(151, 187, 253);
+}
+body {
+    padding-left: 70px;
+    padding-top: 50px; 
+}
+#fn, #sn, #ans, #slct {
+    background-color: rgb(242, 248, 204);
+}

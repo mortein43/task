@@ -2,6 +2,8 @@
 <html>
     <link rel="stylesheet" href="mtask2.css">
     <body>
+        <fieldset>
+            <h1>Перевір себе!</h1>
     <form>
         <div class="fn inline">
         <label>Перше число:</label>
@@ -11,18 +13,31 @@
         <label>Друге число:</label>
         <input id="sn" type="number"><br>
         </div>
+        <div class="answer inline">
+            <label>Відповідь:</label>
+            <input id="ans" type = "number">
+        </div>
         <br>
-        <p>Дія:</p>
+        <br>
+        <div class="d">
+         <label>Дія:</label>
         <select id="slct">
             <option value="+" selected="selected">+</option>
             <option value="-">-</option>
             <option value="*">*</option>
             <option value="/">/</option>
         </select><br>
-        <input type = "text">
-        <p>Результат: <span id="result"></span></p>
-        <input id="btn" type="submit" value="перевірити">
+        </div>
+        <br>
+
+        <label>Результат: <span id="result"></span></label><br>
+        <br>
+        <input id="btn" type="submit" value="Перевірити">
         <script src="script.js"></script>
+        <input id="btn2" type="submit" value="Очистити">
+        <br>
+        <br>
     </body>
     </form>
+    </fieldset>
 </html>
