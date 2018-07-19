@@ -4,7 +4,7 @@
 fieldset {
     text-align: center;
     border-radius: 15px;
-    width: 90%;
+    width: 50%;
     background-color: rgb(192, 214, 253);
 }
 #btn {
@@ -21,4 +21,12 @@ body {
 }
 #fn, #sn, #ans, #slct {
     background-color: rgb(242, 248, 204);
+}
+.correct {
+    color: green;
+    /* display: none; */
+}
+.span2 {
+    color: rgb(252, 4, 4);
+    /*display: hidden;*/
 }
