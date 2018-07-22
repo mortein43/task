@@ -6,33 +6,32 @@
             <h1>Перевір себе!</h1>
     <form>
         <div class="fn inline">
-        <label>Перше число:</label>
+        <p>Перше число:</p>
         <input id="fn" type="number"><br>
         </div>
+        <div class="d inline">
+            <p>Дія:</p>
+           <select id="slct">
+               <option value="+" selected="selected">+</option>
+               <option value="-">-</option>
+               <option value="*">*</option>
+               <option value="/">/</option>
+           </select><br>
+           </div>
         <div class="sn inline">
-        <label>Друге число:</label>
+        <p>Друге число:</p>
         <input id="sn" type="number"><br>
         </div>
         <div class="answer inline">
-            <label>Відповідь:</label>
+            <p>Відповідь:</p>
             <input id="ans" type = "number">
         </div>
         <br>
         <br>
-        <div class="d">
-         <label>Дія:</label>
-        <select id="slct">
-            <option value="+" selected="selected">+</option>
-            <option value="-">-</option>
-            <option value="*">*</option>
-            <option value="/">/</option>
-        </select><br>
-        </div>
+
         <br>
-        <!-- <div class="span"> -->
         <span id="result" ></span>
-        <!-- <span class="span2" id="result2" ></span> -->
-        </div>                
+        <br>
         <br>
         <input id="btn" type="submit" value="Перевірити">
         <script src="script.js"></script>
